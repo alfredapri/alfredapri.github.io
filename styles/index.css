@@ -3,9 +3,40 @@ body {
 }
 
 #content {
+	max-width: 800px;
+	margin: auto;
 	text-align: center;
 }
 
 p {
 	font-size: 18px;
+}
+
+#section-bio {
+	text-align: center;
+}
+
+#bio-table {
+	width: 75%;
+	margin: auto;
+}
+
+/* check table dimensions
+#bio-table tr, th, td {
+	border: 1px solid black;
+}
+*/
+
+#bio-table th {
+	text-align: right;
+}
+
+#bio-table .bio-table-colon {
+	width: 5%;
+	text-align: center;
+}
+
+#bio-table .bio-table-contents {
+	width: 62%;
+	text-align: left;
 }
